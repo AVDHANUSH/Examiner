@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testes
+    username: sa
+    password: password
+
+  mail:
+    username: YOUR_EMAIL_HERE
+    password: YOUR_APP_PASSWORD
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: YOUR_GOOGLE_CLIENT_ID
+            client-secret: YOUR_GOOGLE_CLIENT_SECRET
+
+cloud:
+  aws:
+    credentials:
+      accessKey: YOUR_AWS_ACCESS_KEY
+      secretKey: YOUR_AWS_SECRET_KEY
+
+razorpay:
+  api:
+    key: YOUR_RAZORPAY_KEY
+    secret: YOUR_RAZORPAY_SECRET
+
+openai:
+  api:
+    key: YOUR_OPENAI_KEY
